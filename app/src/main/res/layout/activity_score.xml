@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:layout_marginTop="150dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="Your Score"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:layout_marginTop="210dp"
+        android:id="@+id/yourscore_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="0"
+        android:textSize="50sp" />
+<Button
+    android:id="@+id/btnok"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="380dp"
+    android:layout_centerHorizontal="true"
+    android:text="OK"
+    android:layout_marginBottom="32dp"/>
+
+</RelativeLayout>
